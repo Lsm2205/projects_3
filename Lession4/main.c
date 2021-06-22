@@ -33,10 +33,11 @@ int main () {
     scanf("%d", &numb);
     printf("Число в двоичном представлении:"); 
     myBin(numb);
-    printf("\n");
+    printf("\n\n");
     //system("pause > nul");
     
     // 2 Задание 
+    
     int a = 0.0;
     int b = 0;
  
@@ -46,9 +47,11 @@ int main () {
     scanf("%d", &b);
  
     printf("Результат: %lf", power (a, b));
-    printf("\n");
+    printf("\n\n");
     
     // 3 Задание
+    
+    
     
     // 4 Задание
     return 0;
