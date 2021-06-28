@@ -31,7 +31,7 @@ void bubbleSort(int* array, int length){
 
 double f (double x) {
 
-    return (sqrt(fabs(x)) + 5.0 * pow(x, 3.0));
+    return (sqrt(fabs(x)) + 5 * pow(x, 3));
 
 }
 
@@ -47,12 +47,14 @@ int main (){
       printf("\n");
       
       
- double y;
-
+ 
     int e;
-    double A[11] = {7.9, 7.3, 20.9, 112.0, 5.0, 3.0, 2.9, 9.0, 21.7, 31.2, 4.1};
+    double A[11], y;
+    printf("Введите 11 чисел\n");
+     for (int e = 0; e < 11; e++)
+          scanf("%lf", &A[e]);
 
-    for (e=10; e>=0; e--)
+    for (e = 10; e >= 0; e--)
     {
         y = f (A[e]);
         if (y > 400.0)
